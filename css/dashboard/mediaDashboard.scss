@@ -1,0 +1,33 @@
+@media screen and (min-width: 768px) and (max-width: 1068px) {
+  body {
+    .container {
+      width: 100%;
+      header {
+        display: flex;
+        flex-wrap: wrap;
+
+        .dashboardBox {
+          width: calc(48% - 1rem);
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+
+      .dashboardBox {
+        width: calc(48% - 1rem) !important;
+        background: pink;
+      }
+    }
+
+    main table {
+      font-size: 0.8rem;
+    }
+  }
+}

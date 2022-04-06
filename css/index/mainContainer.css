@@ -1,0 +1,14 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 480px;
+  min-width: 320px;
+}
+.container main {
+  font-size: 0.8rem;
+}/*# sourceMappingURL=mainContainer.css.map */

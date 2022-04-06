@@ -1,0 +1,26 @@
+@media screen and (min-width: 768px) and (max-width: 1068px) {
+  body .container {
+    width: 100%;
+  }
+  body .container header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  body .container header .dashboardBox {
+    width: calc(48% - 1rem);
+  }
+}
+@media screen and (max-width: 768px) {
+  .container header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .container header .dashboardBox {
+    width: calc(48% - 1rem) !important;
+    background: pink;
+  }
+  .container main table {
+    font-size: 0.8rem;
+  }
+}/*# sourceMappingURL=mediaDashboard.css.map */

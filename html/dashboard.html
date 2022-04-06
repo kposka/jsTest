@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/dashboard/dashboard.css" />
+    <script src="../js/dashboard.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="dashboardBox">
+          <div class="frame">
+            <i class="fa-solid fa-eye"></i>
+          </div>
+          <div class="DashboardBox_text">
+            <span class="number" id="visitors"></span>
+            <span class="stat">visitors</span>
+          </div>
+        </div>
+        <div class="dashboardBox">
+          <div class="frame">
+            <i class="fa-solid fa-circle-check"></i>
+          </div>
+          <div class="DashboardBox_text">
+            <span class="number" id="users"></span>
+            <span class="stat">signups</span>
+          </div>
+        </div>
+        <div class="dashboardBox">
+          <div class="frame">
+            <i class="fa-solid fa-location-pin"></i>
+          </div>
+          <div class="DashboardBox_text">
+            <span class="number" id="countries"></span>
+            <span class="stat">signup Countries</span>
+          </div>
+        </div>
+        <div class="dashboardBox">
+          <div class="frame">
+            <i class="fa-solid fa-folder"></i>
+          </div>
+          <div class="DashboardBox_text">
+            <span class="number" id="notCapitalizedNames">2</span>
+            <span class="stat">Names that are not capitalized</span>
+          </div>
+        </div>
+      </header>
+      <main>
+        <h3>Signups</h3>
+        <table>
+          <thead>
+            <tr>
+              <th><input type="text" placeholder="Search..." id="search" /></th>
+              <th>
+                <select name="country" id="country"></select>
+              </th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </main>
+    </div>
+  </body>
+</html>

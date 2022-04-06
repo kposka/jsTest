@@ -1,0 +1,35 @@
+header {
+  background: rgb(113, 0, 251);
+  background: linear-gradient(
+    191deg,
+    rgba(113, 0, 251, 1) 0%,
+    rgb(25, 5, 80) 100%
+  );
+  .logo {
+    color: rgb(255, 255, 255);
+    padding: 0.5rem 0rem 0rem 1rem;
+  }
+
+  .text {
+    padding: 3rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    .title {
+      font-weight: 500;
+    }
+    button {
+      background: rgba(113, 0, 251, 1);
+      border-radius: 1rem;
+      border: none;
+      color: rgb(255, 255, 255);
+      font-weight: 500;
+      margin-top: 1rem;
+      padding: 0.5rem 2rem;
+      text-align: center;
+    }
+    a {
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+    }
+  }
+}

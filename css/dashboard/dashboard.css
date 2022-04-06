@@ -1,0 +1,126 @@
+body {
+  background: rgba(0, 0, 0, 0.1);
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+body .container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+body .container header {
+  display: flex;
+}
+body .container header .dashboardBox {
+  align-items: center;
+  background: rgb(255, 255, 255);
+  border-radius: 0.5rem;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.58);
+  display: flex;
+  flex: 1;
+  margin: 0.5rem 0.5rem;
+  padding: 1.5rem 1rem;
+}
+body .container header .dashboardBox i:first-of-type {
+  color: red;
+}
+body .container header .dashboardBox .frame {
+  align-items: center;
+  border-radius: 5rem;
+  box-shadow: 0px 0.5px 1px 0px rgba(0, 0, 0, 0.58);
+  display: flex;
+  height: 2.5rem;
+  justify-content: center;
+  width: 2.5rem;
+}
+body .container header .dashboardBox .frame i {
+  color: blue;
+}
+body .container header .dashboardBox .DashboardBox_text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5rem;
+}
+body .container header .dashboardBox .DashboardBox_text .number {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+body .container header .dashboardBox .DashboardBox_text .stat {
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}
+body .container main {
+  background: rgb(255, 255, 255);
+  border-radius: 0.5rem;
+  margin: 0 0.5rem;
+}
+body .container main h3 {
+  padding: 0.85rem;
+}
+body .container main table {
+  width: 100%;
+}
+body .container main table thead tr th input,
+body .container main table select {
+  width: 95%;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  border: 0.05rem solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.58);
+}
+body .container main table tbody td.padding {
+  padding-left: 1rem;
+}
+body .container main table .user {
+  display: flex;
+  align-items: center;
+}
+body .container main table .user .frame {
+  align-items: center;
+  border-radius: 5rem;
+  box-shadow: 0px 0.5px 1px 0px rgba(0, 0, 0, 0.58);
+  display: flex;
+  height: 2.5rem;
+  justify-content: center;
+  width: 2.5rem;
+  margin-left: 1rem;
+  color: blue;
+}
+body .container main table .user .userInfo {
+  margin-left: 1rem;
+}
+body .container main table .user .userInfo .name {
+  font-weight: 600;
+}
+body .container main table .user .userInfo .email {
+  font-weight: 300;
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1068px) {
+  body .container {
+    width: 100%;
+  }
+  body .container header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  body .container header .dashboardBox {
+    width: calc(48% - 1rem);
+  }
+}
+@media screen and (max-width: 768px) {
+  .container header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .container header .dashboardBox {
+    width: calc(48% - 1rem) !important;
+    background: pink;
+  }
+  .container main table {
+    font-size: 0.8rem;
+  }
+}/*# sourceMappingURL=dashboard.css.map */
